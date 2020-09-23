@@ -62,6 +62,13 @@ Methods:
 
 ### OpenshiftDSL.create("*.yaml")/.selector("type", "name")/.related('pods')
 
+Object:
+selector(
+    [name = "" ],
+    [labels= "" ],
+    [namelist= []],
+    [projectlist= []]);
+
 Methods:
 
 * equals(); 
